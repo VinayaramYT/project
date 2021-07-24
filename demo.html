@@ -2,15 +2,94 @@
 <html lang="eng">
 <meta charset="UTF-8">
 <head>
+    <style>
+        a:link{
+            color:aquamarine;   
+           }
+           a:hover{
+               color:red;    
+           }
+        p::selection{
+            color:seashell;
+            background-color: rgb(114, 96, 231);
+            }   
+        h1{ 
+                 border:20px  rgb(0, 253, 0);
+                 border-style: ridge dotted double dashed;
+                 border-radius:500px;
+                 text-decoration:underline;
+                 text-shadow:2px 4px rgb(0, 255, 0);
+         } 
+        p{
+           margin:50px;
+        } 
+        p{
+                 border:20px  rgb(97, 0, 253);
+                 border-style: ridge outset inset outset;
+                 border-radius:50px;
+        }
+        body{
+             background-image: url('images.png'), url('istockphoto-887755698-612x612.png');
+             background-repeat: no-repeat no-repeat;
+             background-position:left top, right top;
+             background-size:50% ;
+            }
+        h3{
+            text-align: justify;
+        }    
+        #first{
+           height: 400px;
+           width: 400px;
+           text-align: justify;
+           overflow: scroll;
+        } 
+        #second li {
+          float:left;
+          width:200px;
+          background-color: rgb(255, 251, 0);
+          text-align: center;
+          line-height: 40px;
+          border-radius: 20px;
+          font-size: 22px;
+          list-style: none;
+          height: 40px;
+          opacity: 0.9;
+        }
+        ul li a{
+            text-decoration: none;
+          }
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        ul li ul{
+        display:none;
+        }
+        ul li:hover > ul{
+        display: block;
+        }    
+        ul li:hover{
+         background-color: rgb(170, 250, 11);
+         color:white;
+        }  
+        </style>
+
     <script>
 
         ram = {name:"Vinayaram's", age:14};
  
+        function myfunction(){
+    
+    document.getElementById("demo").innerHTML = "VR INFO TECH TELUGU";
+ }
+ alert("THIS PAGE IS SAFE");
+
+  var uid = prompt ("Please Enter Your Name:","");
+  document.write("Hello " + uid+"!");
+
      </script>
 
 <title>VINAYARAM</title>
-    <script src="js.js"></script>
-    <link rel="stylesheet" href="css.css">
 <center><h1><button type="button" onclick="myfunction()" ><font size="5">Click Me</button></font></center></h1>    
 <ul id="second">
 <li><a href="#">MS-WORD</li></a>
@@ -28,11 +107,6 @@
 <li><a href="#">MS-OUTLOOK</li></ol></ul></ul></a>
 <br><br><br><br><br><br><br><br><br><br><br><head><h1 id="demo"><center><font size="10"color="red"face="bold"><hr><hr>VINAYARAM<hr><hr></h1></head>
 <body>
-    <form>
-        Name:<input type = "text"/>
-        Mobile:<input type = "text"/>
-        <input type = "submit"/>
-    </form>    
     <script>
 
         document.write(ram.name +" " + "age is" + " " + ram.age)
@@ -96,6 +170,4 @@ Give feedback<center>
     
        </video> 
 
-
 </body>
-</html>

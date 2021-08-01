@@ -1,4 +1,4 @@
-<style type
+style type
 a:link{
     color:aquamarine;   
    }
@@ -68,3 +68,22 @@ ul li:hover{
  background-color: rgb(170, 250, 11);
  color:white;
 }  
+#home{
+    color:rgb(255, 166, 0); 
+}
+a:hover{
+    color:red;    
+}
+
+ #ab{
+    color:rgb(255, 166, 0);   
+}
+a:hover{
+    color:red;    
+}
+ #cs{
+    color:rgb(255, 166, 0);   
+}
+a:hover{
+    color:red;    
+}

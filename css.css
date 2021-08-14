@@ -1,4 +1,4 @@
-style type
+
 a:link{
     color:aquamarine;   
    }
@@ -12,7 +12,7 @@ p::selection{
 h1{ 
          border:20px  rgb(0, 253, 0);
          border-style: ridge dotted double dashed;
-         border-radius:500px;
+         border-radius:50px;
          text-decoration:underline;
          text-shadow:2px 4px rgb(0, 255, 0);
  } 
@@ -45,8 +45,7 @@ h3{
   background-color: rgb(255, 251, 0);
   text-align: center;
   line-height: 40px;
-  border-radius: 20px;
-  font-size: 22px;
+  font-size:25px;
   list-style: none;
   height: 40px;
   opacity: 0.9;
@@ -65,7 +64,7 @@ ul li:hover > ul{
 display: block;
 }    
 ul li:hover{
- background-color: rgb(170, 250, 11);
+ background-color: rgb(0, 255, 0);
  color:white;
 }  
 #home{
@@ -85,5 +84,42 @@ a:hover{
     color:rgb(255, 166, 0);   
 }
 a:hover{
-    color:red;    
+    color:red;
+    float: none;   
+}
+#ram{
+
+    border: 3px solid black;
+}
+#ram:hover{
+    border-radius: 500px;
+    border: 10px solid;
+}
+#learn{
+    font-size: 25px;
+}
+#mom{
+    font-size: 25px;
+}
+#headset{
+       border: 20px;
+       border-style: inset;
+       background-color: chartreuse;
+       overflow: hidden;
+       text-align: middle;
+}
+
+h1 img{
+    float:left;
+    overflow: hidden;
+    margin:0px;
+    padding:0px;
+}
+#second li a:hover {
+    background-color: rgb(128, 255, 0);
+    color:white;
+}
+ul li ul a:active{
+    background-color: chocolate;
+    color: white;
 }

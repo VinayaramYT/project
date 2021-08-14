@@ -1,6 +1,6 @@
 function myfunction(){
     
-    document.getElementById("demo").innerHTML = "VR INFO TECH TELUGU";
+    document.getElementById("baba").innerHTML = "VINAYARAM";
  }
  alert("THIS PAGE IS SAFE");
 

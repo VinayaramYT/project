@@ -138,7 +138,37 @@ ul li ul a:active{
 #bll{
     text-decoration: none;
 }
+#bll1{
+    text-decoration: none;
+    background-color: none;
+}
+#bll2{
+    text-decoration: none;
+    background-color: none;
+}
+#bll3{
+    text-decoration: none;
+    background-color: none;
+}
 .dd{
     display: inline-block;
     font-size: large;
+}
+.ddbtn{
+    padding: 10px;
+    min-width: 120px;
+    float: left;
+    border:none;
+    background-color: rgb(83, 223, 202);
+    font-size: 1em
+}
+.ddbtn:hover{
+    background-color: rgb(66, 255, 208);
+    cursor: pointer;
+}
+.ddlist{
+    position:left;
+    background: #f1f1f1;
+    min-width: 100px;
+    box-shadow: #e0e0e1;
 }

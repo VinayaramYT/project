@@ -133,27 +133,27 @@ ul li ul a:active{
 }
 #bl{
     text-decoration: none;
-    color: blue;
-    
+    color: black;
+    padding: 10px;
 }
 #bll{
     text-decoration: none;
-    color: blue;
+    color: black;
 }
 #bll1{
     text-decoration: none;
     background-color: none;
-    color: blue;
+    color: black;
 }
 #bll2{
     text-decoration: none;
     background-color: none;
-    color: blue;
+    color: black;
 }
 #bll3{
     text-decoration: none;
     background-color: none;
-    color: blue;
+    color: black;
 }
 #bll3:hover{
      color: red;
@@ -191,7 +191,15 @@ ul li ul a:active{
     background: #f1f1f1;
     min-width: 106px;
     box-shadow: 0px 8px 8px 0px #bebebe;
+    display: none;
 }
 .ddlist a{
     display: block;
+    padding: 10px;
+}
+.ddlist a:hover{
+    background-color: #e0e0e1;
+}
+.dd:hover .ddlist{
+   display: block;
 }
